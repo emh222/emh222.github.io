@@ -25,3 +25,41 @@ body, html{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+h2 {
+    color: rgb(138,43,226);
+    position: absolute;
+    bottom: -25px;
+    left: 650px;
+
+}
+
+#redLight {
+
+    position: absolute;
+    top: 5px;
+    right: 150px;
+    z-index: 2;
+}
+
+#greenLight {
+    position: absolute;
+    top: 5px;
+    left: 150px;
+    z-index: 3;
+}
+
+#purpleBfly {
+    position: absolute;
+    top: 250px;
+    left: -35px;
+    z-index: -1;
+
+}
+
+#tellowBfly {
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    z-index: -1;
+}
