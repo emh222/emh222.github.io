@@ -24,72 +24,72 @@ body, html{
     background-repeat: no-repeat;
 }
 
-h2 {
+body, h2 {
     color: rgb(138,43,226);
-    position: relative;
+    position: absolute;
     bottom: -25px;
     left: 650px;
 
 }
 
-#redLight {
+body, #redLight {
 
-    position: relative;
+    position: absolute;
     top: 5px;
     right: 150px;
     z-index: 2;
 }
 
-#greenLight {
-    position: relative;
+body, #greenLight {
+    position: absolute;
     top: 5px;
     left: 150px;
     z-index: 3;
 }
 
-#purpleBfly {
-    position: relative;
+body, #purpleBfly {
+    position: absolute;
     top: 250px;
     left: -35px;
     z-index: -1;
 
 }
 
-#yellowBfly {
-    position: relative;
+body, #yellowBfly {
+    position: absolute;
     top: 400px;
     left: 0px;
     z-index: -1;
 }
 
-#purpBfly {
+body, #purpBfly {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color: black;
     text-align: center;
-    position: relative;
+    position: absolute;
     top: 245px;
     left: 675px;
 
 }
 
-#yellBfly {
+body, #yellBfly {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color: black;
     text-align: center;
-    position: relative;
+    position: absolute;
     top: 245px;
     left: 675px;
 
 }
 
-#tieName {
+body, #tieName {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color: black;
     text-align: center;
-    position: relative;
+    position: absolute;
     top: 245px;
     left: 675px;
 }
