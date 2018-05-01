@@ -11,8 +11,6 @@ header {
 
     font-style: normal;
 
-    border-bottom: thick solid rgb(138,43,226);
-
 }
 
 body, html{
@@ -28,7 +26,7 @@ body, html{
 
 h2 {
     color: rgb(138,43,226);
-    position: absolute;
+    position: relative;
     bottom: -25px;
     left: 650px;
 
@@ -36,21 +34,21 @@ h2 {
 
 #redLight {
 
-    position: absolute;
+    position: relative;
     top: 5px;
     right: 150px;
     z-index: 2;
 }
 
 #greenLight {
-    position: absolute;
+    position: relative;
     top: 5px;
     left: 150px;
     z-index: 3;
 }
 
 #purpleBfly {
-    position: absolute;
+    position: relative;
     top: 250px;
     left: -35px;
     z-index: -1;
@@ -58,7 +56,7 @@ h2 {
 }
 
 #yellowBfly {
-    position: absolute;
+    position: relative;
     top: 400px;
     left: 0px;
     z-index: -1;
@@ -69,7 +67,7 @@ h2 {
     font-size: 20px;
     color: black;
     text-align: center;
-    position: absolute;
+    position: relative;
     top: 245px;
     left: 675px;
 
@@ -80,7 +78,7 @@ h2 {
     font-size: 20px;
     color: black;
     text-align: center;
-    position: absolute;
+    position: relative;
     top: 245px;
     left: 675px;
 
@@ -91,7 +89,7 @@ h2 {
     font-size: 20px;
     color: black;
     text-align: center;
-    position: absolute;
+    position: relative;
     top: 245px;
     left: 675px;
 }
