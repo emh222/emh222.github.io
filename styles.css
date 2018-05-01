@@ -1,0 +1,23 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    color: rgb(138,43,226);
+
+    text-align: center;
+
+    font-size: 40px;
+
+    font-style: normal;
+
+    border-bottom: thick solid rgb(138,43,226);
+
+}
+
+body {
+
+    background: url("backgroundField.PNG");
+
+    background-size: auto;
+}
