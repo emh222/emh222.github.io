@@ -24,7 +24,7 @@ body, html{
     background-repeat: no-repeat;
 }
 
-body, html, h2 {
+html, h2 {
     color: rgb(138,43,226);
     position: absolute;
     bottom: -25px;
@@ -32,7 +32,7 @@ body, html, h2 {
 
 }
 
-body, html, #redLight {
+html, #redLight {
 
     position: absolute;
     top: 5px;
@@ -40,14 +40,14 @@ body, html, #redLight {
     z-index: 2;
 }
 
-body, html, #greenLight {
+html, #greenLight {
     position: absolute;
     top: 5px;
     left: 150px;
     z-index: 3;
 }
 
-body, html,  #purpleBfly {
+html,  #purpleBfly {
     position: absolute;
     top: 250px;
     left: -35px;
@@ -55,14 +55,14 @@ body, html,  #purpleBfly {
 
 }
 
-body, html, #yellowBfly {
+html, #yellowBfly {
     position: absolute;
     top: 400px;
     left: 0px;
     z-index: -1;
 }
 
-body, html, #purpBfly {
+html, #purpBfly {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color: black;
@@ -73,7 +73,7 @@ body, html, #purpBfly {
 
 }
 
-body, html, #yellBfly {
+html, #yellBfly {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color: black;
@@ -84,7 +84,7 @@ body, html, #yellBfly {
 
 }
 
-body, html, #tieName {
+html, #tieName {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color: black;
