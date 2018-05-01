@@ -57,9 +57,41 @@ h2 {
 
 }
 
-#tellowBfly {
+#yellowBfly {
     position: absolute;
     top: 400px;
     left: 0px;
     z-index: -1;
+}
+
+#purpBfly {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 245px;
+    left: 675px;
+
+}
+
+#yellBfly {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 245px;
+    left: 675px;
+
+}
+
+#tieName {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 245px;
+    left: 675px;
 }
