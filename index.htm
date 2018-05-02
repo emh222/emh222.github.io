@@ -10,36 +10,32 @@
   <title>The Great Race</title>
   <meta name="race" content="HTML5 Template">
   <link rel="stylesheet" href="styles.css" type="text/css">
-  <!-- <link rel="shortcut icon" href="Photos/backgroundField.png"> -->
 
 </head>
 
 <body>
-
-
-  <div id="redLight" onclick="startRace()"><img src = "Photos/redStopLight.PNG" onclick="" width="150" alt = "red traffic light"/></div>
-
+    <div id="redStopLight">
+        <img src="Photos/redStopLight.PNG" onclick="startRace()" alt="Red Stop Light" style="width: 150px; height: 150px;"/>
+    </div>
   <header>
-    <h1>The Great Race</h1>
+    <h1>The Butterfly Effect</h1>
   </header>
-
-  <div id="greenLight"><img src= "Photos/greenStopLight.PNG" width="150" alt= "green traffic light"/></div>
-
-  <div id="purpleBfly"><img src = "Photos/purpleButterfly.PNG" width="350" alt = "purple butterfly"/></div>
-
-  <div id="yellowBfly"><img src = "Photos/yellowButterfly.PNG" width = "250" alt = "yellow butterfly"/></div>
-
-  <div id="WinningPrize" onclick = "reset()" ><img src = "Photos/winnerText.PNG" width="350" alt= "winner prize text"/></div>
-  
-  <h2 id = "raceAgain">Click on the WINNER text to race again!</h2>
-
-  <div id="purpBfly" onclick="reset()">purple</div>
-
-  <div id="yellBfly" onclick="reset()">yellow</div>
-
-  <div id="tieName" onclick="reset()">Tie</div>
-
-  <script src="JavaScript.js"></script>
+  <div id="purpBfly">
+    <img src="Photos/purpleButterfly.PNG" alt="purple Butterfly" style="width: 200px; height: 150px;"/>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div id="yellBfly">
+    <img src="Photos/yellowButterfly.PNG" alt="yellow Butterfly" style="width: 200px; height: px;"/>
+  </div>
+  <br>
+  <br>
+  <div id="winningBfly">
+    <h2>WINNER!</h2>
+    <!--<img src="Photos/purpleButterfly.PNG" onclick="reset()" style="width: 400px; height: 300px;" id="winningBflyID"> -->
+  </div>
 
 </body>
+  <script src="JavaScript.js"></script>
 </html>

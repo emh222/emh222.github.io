@@ -1,95 +1,20 @@
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("Photos/backgroundField.PNG");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 header {
-    color: rgb(138,43,226);
-
+    color: rgb(233, 22, 22);
     text-align: center;
-
-    font-size: 40px;
-
+    font-size: 30px;
     font-style: normal;
-
 }
-
-body, html{
-
-    background-image: url("Photos/backgroundField.PNG");
-
-    height: 100%;
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 h2 {
-    color: rgb(138,43,226);
-    position: absolute;
-    bottom: -25px;
-    left: 650px;
-
-}
-
-#redLight {
-
-    position: absolute;
-    top: 5px;
-    right: 150px;
-    z-index: 2;
-}
-
-#greenLight {
-    position: absolute;
-    top: 5px;
-    left: 150px;
-    z-index: 3;
-}
-
-#purpleBfly {
-    position: absolute;
-    top: 250px;
-    left: -35px;
-    z-index: -1;
-
-}
-
-#yellowBfly {
-    position: absolute;
-    top: 400px;
-    left: 0px;
-    z-index: -1;
-}
-
-#purpBfly {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: black;
+    color: rgb(233, 22, 22);
     text-align: center;
-    position: absolute;
-    top: 245px;
-    left: 675px;
-
 }
 
-#yellBfly {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: black;
-    text-align: center;
-    position: absolute;
-    top: 245px;
-    left: 675px;
 
-}
 
-#tieName {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: black;
-    text-align: center;
-    position: absolute;
-    top: 245px;
-    left: 675px;
-}
