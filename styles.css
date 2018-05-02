@@ -15,7 +15,7 @@ header {
 
 body, html{
 
-    background: url("Photos/backgroundField.PNG");
+    background-image: url("Photos/backgroundField.PNG");
 
     height: 100%;
 
