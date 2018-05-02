@@ -1,6 +1,6 @@
 var purpleBfly = document.getElementById("purpleBfly");
-var yellowBfly = document.getElementById("yellpwBfly");
-var redLight = document.getElementById("redStopLight");
+var yellowBfly = document.getElementById("yellowBfly");
+var redStopLight = document.getElementById("redStopLight");
 var winningBfly = document.getElementById("winningBfly");
 winningBfly.style.display = 'none';
 var pFly = Math.random() *100;
