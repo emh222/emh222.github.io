@@ -1,59 +1,61 @@
 var purpleBfly = document.getElementById("purpleBfly");
 var yellowBfly = document.getElementById("yellowBfly");
 var redStopLight = document.getElementById("redStopLight");
+var greenStopLight = document.getElementById("greenStopLight");
+var winnersText = document.getElementById("winnersText");
 var winningBfly = document.getElementById("winningBfly");
 winningBfly.style.display = 'none';
-var pFly = Math.random() *100;
-var yFly = Math.random() * 100;
-var raceStarted = false;
+
+var pFly = 0;
+var yFly = 0;
 
 
-function changeLight()
-{
-    image.src = "Photos/greenStopLight.PNG";
+function changeLight(){
+    redStopLight.src = "Photos/greenStopLight.PNG";
 }
 
 function startRace()
 {
-    raceStarted = true;
-
-    setTimeout(function () {
-        var newPfly = (math.random() * 100) + pFly;
-        var newYfly = (math.random() * 100) + yFly;
-
+    setTimeout(function() {
+        var newPfly = (Math.random() * 100) + pFly;
+        var newYfly = (Math.random() * 100) + yFly;
+    
         purpleBfly.style.marginLeft = newPfly + 'px';
-
+    
         yellowBfly.style.marginLeft = newYfly + 'px';
-
+    
         pFly = newPfly;
         yFly = newYfly;
-
+    
         var purpleDistance = purpleBfly.style.marginLeft.slice(0, -2);
         var yellowDistance = yellowBfly.style.marginLeft.slice(0, -2);
-
+    
         var width = screen.width;
-
-        if (purpleDistance >= width - 150)
+    
+        if (purpleDistance >= width - 200)
         {
-            docment.getElementById("winningBflyID").src = "Photos/purpleButterfly.png";
-            winningBfly.style.display = 'inline';
-            window.alert("the Purple Buttefly won!");
+            winningBfly.style.display = "inline";
+            winningBfly.src = "Photos/purpleButterfly.PNG";
+            winnersText.innerHTML = "PURPLE BUTTERFLY WINS!";
         }
-        else if (yellowDistance >= width - 150)
+        else if (yellowDistance >= width - 200)
         {
-            document.getElementById("winningBflyID").src = "Photos/yellowButterfly.png";
-            winningBfly.style.display = 'inline';
-            window.alert("The Yellow Butterfly won!!");
+            winningBfly.style.display = "inline";
+            winningBfly.src = "Photos/yellowButterfly.PNG";
+            winnersText.innerHTML = "YELLOW BUTTERFLY WINS!";
         }
-        else{
-            raceStarted();
+        else {
+            startRace();
         }
     }, 500);
-}
+}    
+
+
 
 function reset()
 {
-    image.src = "Photos/redStopLight.PNG";
+    redStopLight.src = "Photos/redStopLight.PNG";
+    winnersText.innerHTML = "The Butterfly Effect";
     winningBfly.style.display = 'none';
     purpleBfly.style.marginLeft = 0;
     yellowBfly.style.marginLeft = 0;

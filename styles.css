@@ -1,7 +1,7 @@
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url("Photos/backgroundField.PNG");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     background-size: 100%;
 }
 
@@ -11,10 +11,6 @@ header {
     font-size: 30px;
     font-style: normal;
 }
-h2 {
-    color: rgb(233, 22, 22);
-    text-align: center;
-}
-
+ 
 
 
