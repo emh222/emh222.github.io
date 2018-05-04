@@ -44,7 +44,8 @@ function startRace()
             winningBfly.src = "Photos/yellowButterfly.PNG";
             winnersText.innerHTML = "YELLOW BUTTERFLY WINS!";
         }
-        else {
+        else 
+        {
             startRace();
         }
     }, 500);
