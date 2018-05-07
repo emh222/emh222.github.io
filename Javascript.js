@@ -4,7 +4,7 @@ var redStopLight = document.getElementById("redStopLight");
 var greenStopLight = document.getElementById("greenStopLight");
 var winnersText = document.getElementById("winnersText");
 var winningBfly = document.getElementById("winningBfly");
-winningBfly.style.display = 'hidden';
+winningBfly.style.display = 'none';
 
 var pFly = 0;
 var yFly = 0;
