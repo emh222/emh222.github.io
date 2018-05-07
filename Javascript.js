@@ -11,7 +11,7 @@ var yFly = 0;
 
 
 function changeLight(){
-    redStopLight.src="Photos/greenStopLight.PNG";
+    redStopLight.src="Photos/greenStopLight.png";
 }
 
 function startRace()
