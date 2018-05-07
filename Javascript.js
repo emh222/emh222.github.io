@@ -37,13 +37,13 @@ function startRace()
         {
             winningBfly.style.display = "inline";
             winningBfly.src = "Photos/purpleButterfly.PNG";
-            winnersText.innerHTML = "PURPLE BUTTERFLY WINS!";
+            winnersText.innerHTML = "PURPLE BUTTERFLY WINS! click the butterfly to restart";
         }
         else if (yellowDistance >= width - 200)
         {
             winningBfly.style.display = "inline";
             winningBfly.src = "Photos/yellowButterfly.PNG";
-            winnersText.innerHTML = "YELLOW BUTTERFLY WINS!";
+            winnersText.innerHTML = "YELLOW BUTTERFLY WINS! click the butterfly to restart";
         }
         else 
         {
