@@ -5,7 +5,6 @@ var greenStopLight = document.getElementById("greenStopLight");
 var winnersText = document.getElementById("winnersText");
 var winningBfly = document.getElementById("winningBfly");
 winningBfly.style.display = 'none';
-startRace = false;
 
 var pFly = 0;
 var yFly = 0;
@@ -17,7 +16,6 @@ function changeLight(){
 
 function startRace()
 {
-    startRace = true;
 
     setTimeout(function() {
         var newPfly = (Math.random() * 100) + pFly;
