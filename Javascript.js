@@ -58,7 +58,7 @@ function reset()
 {
     redStopLight.src = "Photos/redStopLight.PNG";
     winnersText.innerHTML = "The Butterfly Effect";
-    winningBfly.style.display = 'none';
+    winningBfly.style.display = 'hidden';
     purpleBfly.style.marginLeft = 0;
     yellowBfly.style.marginLeft = 0;
     purpleDistance = 0;
